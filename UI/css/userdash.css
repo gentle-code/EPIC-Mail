@@ -117,3 +117,14 @@ form a{
     padding-left: 45px;
     color: rgb(61, 60, 60);
 }
+.prev{
+    float: left;
+    margin-left: 30%;
+}
+.next{
+    float: right;
+}
+.barpage{
+    margin-top: 10px;
+    width: 100%;
+}
