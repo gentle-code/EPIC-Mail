@@ -3,7 +3,7 @@
     padding: 0;
     width: 20%;
     position: fixed;
-    height: 80%;
+    height: 60%;
     overflow: auto;
     margin-top: 1em;
     background-color: rgb(250, 250, 250);
@@ -127,4 +127,14 @@ form a{
 .barpage{
     margin-top: 10px;
     width: 100%;
+}
+.compose{
+    font-size: 18px;
+    margin-left: 20px;
+    border-radius: 6px;
+    background-color: white;
+    padding: 10px;
+}
+.compose :hover{
+    background-color: #e90505;
 }
