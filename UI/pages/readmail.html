@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <meta name="author" content="Emmanuel TUYISHIMIRE">
+        <title>EPIC Mail | User Dashboard</title>
+        <link rel="stylesheet" type="text/css" href="../css/index.css">
+        <link rel="stylesheet" type="text/css" href="../css/userdash.css">
+        <link rel="stylesheet" type="text/css" href="../css/compose.css">
+        <link rel="stylesheet" type="text/css" href="../css/readmail.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="navbar">
+                    <a href="#" id="logo">EPIC Mail</a>
+                    <div class="dropdown">
+                    <button class="dropbtn">Emmanuel TUYISHIMIRE <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </button>
+                    <div class="dropdown-content"> 
+                    <a href="profile.html">Profile</a>
+                    <a href="index.html">Settings</a>
+                 </div>
+              </div>
+            </div>
+            </div>
+        </header>
+        <div class="container">
+            <button id="myBtn" class="compose" ><i class="fa fa-plus"></i> Compose New Mail</button>
+            <div class="side">
+                <a href="#home" class="active">Inbox</a>
+                <a href="#">Sent</a>
+                <a href="#">Drafts</a>
+                <a href="./index.html">Log Out</a>
+
+            </div>
+            <div class="mail">
+            <form action="">
+                <div class="container">
+                    <div class="message">
+                    <label for="">"Congrats Your are now Eligible to be an Andelan"</label><br> <br>
+                    <label for=""><b>Emmanuel TUYISHIMIRE</b></label><br> <br>
+                           <p>Hi there,</p> 
+
+                           <p> We are thrilled to have you participate in our upcoming bootcamp.</p> <p> Like we mentioned in our last email, this is an invitation to begin working on your bootcamp project - The Andela Developer Challenge.
+                            
+                            For this mission, you will demonstrate your technical abilities by building a full-stack application we’ve called EPIC Mail. Please find the full specifications and rubric attached to this mail.
+                            
+                            As you work to deliver this project, here are some things we will be looking out for: </p>
+                            
+                            <p>ability to adhere to global standards of user experience design
+                            Your level of attention to detail with regard to clients’ requirements and specifications
+                            Your alignment with software development best practices and coding conventions
+                            Your ability to implement efficient algorithms for problem-solving
+                            Your understanding and application of Test-Driven Development
+                            Your knowledge and use of Version Control concepts and tools
+                            Instructions on deadlines are contained within the document.</p> 
+                            <p> Please submit your challenges via this form. 
+                            Please note that the deadline for Challenge One is March 1st, 2019 and Challenge Two is March 8th, 2019.
+                            
+                            Also, we invite you to dive into our recently published Andela Pre-fellowship Honour Code. At Andela, we hold ourselves to the highest standards and we expect that you do same. As you read through the Honour Code, be as practical as possible. Reflect on your past experiences and make decisions on how you would begin to embody these values.
+                            
+                            Remember we want you to learn and have fun while you build this project.
+                            
+                            Best,</p> 
+
+                            
+                            <h3>Andela Talent Development Team</h3> 
+                        </div>
+                        <div class="rep">
+                                <button type="submit"><i class="fa fa-reply"></i> Reply</button>
+                                <button type="submit"><i class="fa fa-mail-forward"></i> Forward </button>
+                        </div>
+
+                </div>
+
+                  </form>
+                </div>
+
+        </div>
+<!-- Compose New Mail Modal Section -->
+<div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>New Message</h2>
+          </div>
+          <div class="modal-body">
+                <form action="">
+                    <div class="container">
+                        <table class="comptab">
+                            <tr><td>
+                            <input type="text" id="inA" value="To" disabled/>
+                            <input  type="text" placeholder="Enter Email or Group Name" name="to" required></td></tr> 
+                      
+                        <tr><td>
+                        <input type="text" id="inB" value="Subject" disabled/>
+                        <input  type="text" placeholder="Add Subject" name="subject" required></td></tr> 
+                        <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+                    </table>
+
+                    </div>
+                    </form>
+          </div>
+          <div class="container">
+          <div class="modal-footer">
+                <button type="submit">Send</button>
+                <button type="submit">Save</button>
+                <i class="fa fa-trash" aria-hidden="true"></i>
+          </div>
+        </div>
+        </div>
+      
+      </div>
+      
+<!-- End of Section-->
+        <footer>
+                <p>Copyright &copy; 2019 EPIC Mail</p>
+        </footer>
+        <script type="text/javascript" src="../js/compose.js"></script>
+    </body>
+</html>
