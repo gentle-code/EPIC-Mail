@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <meta name="author" content="Emmanuel TUYISHIMIRE">
+        <title>EPIC Mail | User Dashboard</title>
+        <link rel="stylesheet" type="text/css" href="../css/index.css">
+        <link rel="stylesheet" type="text/css" href="../css/userdash.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="navbar">
+                    <a href="#" id="logo">EPIC Mail</a>
+                    <div class="dropdown">
+                    <button class="dropbtn">Emmanuel TUYISHIMIRE <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </button>
+                    <div class="dropdown-content"> 
+                    <a href="profile.html">Profile</a>
+                    <a href="index.html">Logout</a>
+                 </div>
+              </div>
+            </div>
+            </div>
+        </header>
+        <div class="container">
+            <button class="compose"><i class="fa fa-plus"></i> Compose New Mail</button>
+            <div class="side">
+                <a href="#home" class="active">Inbox</a>
+                <a href="#">Sent</a>
+                <a href="#">Drafts</a>
+                <a href="./index.html">Log Out</a>
+
+            </div>
+            <div class="mail">
+            <form action="">
+                <input type="checkbox"  name="remember">
+                <a href="#"><i class="fa fa-mail-forward"></i> Forward</a>
+                <a href="#"><i class="fa fa-trash" aria-hidden="true"></i> Delete</a>
+                <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i> Read</a>
+                    <table id="tab">
+                            <tr class="header">
+                              <th></th>
+                              <th>From</th>
+                              <th>Subject</th>
+                            </tr>
+                            <tr onclick="window.location='#';"> 
+                                <td><input type="checkbox"  name="remember"></td>
+                              <td>Andela Kigali</td>
+                              <td>Congrats Your are now Eligible to be an Andelan</td>
+                            </tr>
+                            <tr onclick="window.location='#';">
+                              <td><input type="checkbox"  name="remember"></td>
+                              <td>Bank Of Kigali</td>
+                              <td>Your Bank Statement</td>
+                            </tr>
+                            <tr onclick="window.location='#';">
+                              <td><input type="checkbox"  name="remember"></td>
+                              <td>Progate</td>
+                              <td>Learn Start</td>
+                            </tr>
+                            <tr onclick="window.location='#';">
+                            <td><input type="checkbox"  name="remember"></td>
+                            <td>Andela Kigali</td>
+                            <td>Congrats Your are now Eligible to be an Andelan</td>
+                            </tr>
+                            <tr onclick="window.location='#';">
+                            <td><input type="checkbox"  name="remember"></td>
+                            <td>Bank Of Kigali</td>
+                            <td>Your Bank Statement</td>
+                            </tr>
+                            <tr onclick="window.location='#';">
+                            <td><input type="checkbox"  name="remember"></td>
+                            <td>Progate</td>
+                            <td>Learn Start</td>
+                            </tr>
+                            <tr onclick="window.location='#';">
+                            <td><input type="checkbox"  name="remember"></td>
+                            <td>Andela Kigali</td>
+                             <td>Congrats Your are now Eligible to be an Andelan</td>
+                            </tr>
+                            <tr onclick="window.location='#';">
+                            <td><input type="checkbox"  name="remember"></td>
+                            <td>Bank Of Kigali</td>
+                            <td>Your Bank Statement</td>
+                            </tr>
+                            <tr onclick="window.location='#';">
+                            <td><input type="checkbox" name="remember"></td>
+                            <td>Progate</td>
+                             <td>Learn Start</td>
+                            </tr>
+                          </table>
+                  </form>
+                </div>
+                <div class="container">
+                        <div class="barpage">
+                                <button class="prev"><i class="fa fa-arrow-left" ></i> Previous</button>
+                                <button class="next">Next <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+          
+                            </div>
+                </div>
+
+        </div>
+        <footer>
+                <p>Copyright &copy; 2019 EPIC Mail</p>
+           </footer>
+    </body>
+</html>
