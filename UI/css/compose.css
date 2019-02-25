@@ -1,0 +1,95 @@
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  
+  /* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+.modal-header {
+    padding: 2px 16px;
+    background-color: #6b6b6b;
+    color: white;
+    font-size: 12px;
+  }
+  
+.modal-body {
+      padding: 2px 16px;
+    }
+  
+.modal-footer {
+    padding: 2px 16px;
+    color: black;
+    width: 88%;
+  }
+.modal-footer i{
+font-size: 24px;
+float: right;
+margin-top: 10px;
+}
+.modal-footer button{
+    background-color:  #ffcc00;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom:  10px;
+}
+.comptab{
+   width: 100%;
+}
+.comptab input[type=text] {
+    width: 80%;
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid rgb(219, 219, 219);
+  }
+.comptab input[type=text]#inA {
+    border: none;
+    text-align:left;
+    width: 10%;
+    background-color: white;
+  }
+.comptab input[type=text]#inB {
+    border: none;
+    text-align:left;
+    width: 10%;
+    background-color: white;
+  }
+.comptab textarea{
+    width: 90%;
+}
