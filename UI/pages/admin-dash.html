@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <meta name="author" content="Emmanuel TUYISHIMIRE">
+        <title>EPIC Mail | User Dashboard</title>
+        <link rel="stylesheet" type="text/css" href="../css/index.css">
+        <link rel="stylesheet" type="text/css" href="../css/userdash.css">
+        <link rel="stylesheet" type="text/css" href="../css/compose.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="navbar">
+                    <a href="./index.html" id="logo">EPIC Mail</a>
+              </div>
+            </div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="side">
+                <a href="#" class="active">View Groups</a>
+                <a id="Btn" href="#myModal">Create Group</a>
+                <a href="./add-contact.html">Add Member</a>
+                <a href="./index.html">Log Out</a>
+
+            </div>
+            <div class="mail">
+            <form action="">
+                    <table id="tab">
+                            <tr class="header">
+                              <th>Groups Name</th>
+                              <th>Members</th>
+                            </tr>
+                            <tr onclick="window.location='#';"> 
+                              <td>Andela Kigali</td>
+                              <td>23</td>
+                            </tr>
+                            <tr onclick="window.location='#';">
+
+                              <td>Bank Of Kigali</td>
+                              <td>12</td>
+                            </tr>
+                            <tr onclick="window.location='';">
+
+                              <td>Progate</td>
+                              <td>245</td>
+                            </tr>
+                            <tr onclick="window.location='';">
+
+                            <td>Andela Kigali</td>
+                            <td>23</td>
+                            </tr>
+                            <tr onclick="window.location='#';">
+                            <td>Bank Of Kigali</td>
+                            <td>12</td>
+                            </tr>
+                            <tr onclick="window.location='#';">
+                            <td>Progate</td>
+                            <td>245</td>
+                            </tr>
+                            <tr onclick="window.location='#';">
+                            <td>Andela Kigali</td>
+                             <td>23</td>
+                            </tr>
+                            <tr onclick="window.location='#';">
+                            <td>Bank Of Kigali</td>
+                            <td>12</td>
+                            </tr>
+                            <tr onclick="window.location='#';">
+                            <td>Progate</td>
+                             <td>245</td>
+                            </tr>
+                          </table>
+                  </form>
+                </div>
+                <div class="container">
+                        <div class="barpage">
+                                <button class="prev"><i class="fa fa-arrow-left" ></i> Previous</button>
+                                <button class="next">Next <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+          
+                            </div>
+                </div>
+
+        </div>
+        <!-- Create Group Modal Section -->
+<div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Create Group</h2>
+          </div>
+          <div class="modal-body">
+                <form action="">
+                    <div class="container">
+                            <table class="comptab">
+                                    <tr><td>
+                                        <label>Please Enter Group Name</label>
+                                    <input  type="text" placeholder="Enter Group Name" name="to" required>
+                                </td></tr> 
+                            </table>
+                    </div>
+                    </form>
+          </div>
+          <div class="container">
+          <div class="modal-footer">
+                <button type="submit">Cancel</button>
+                <button type="submit">Create</button>
+          </div>
+        </div>
+        </div>
+      
+      </div>
+      
+<!-- End of Section-->
+        <footer>
+                <p>Copyright &copy; 2019 EPIC Mail</p>
+        </footer>
+        <script type="text/javascript" src="../js/admin.js"></script>
+    </body>
+</html>

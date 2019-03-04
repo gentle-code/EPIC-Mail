@@ -1,0 +1,29 @@
+.profile{
+    width: 70%;
+    height: 80%;
+}
+.profile img{
+    height: 100px;
+    width: 100px; 
+    margin-right: 20%;
+}
+.profile h1{
+    text-align: center;
+}
+.profile table{
+    margin: 1em;
+    text-align: center;
+    border-radius: 2em;
+}
+.lin{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.button{
+    margin-left: 20%;
+}
+.profile a{
+    color: #ffcc00;
+    text-decoration: none;
+    margin-left: 10px;
+}
