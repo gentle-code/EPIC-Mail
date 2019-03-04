@@ -8,6 +8,7 @@
         <link rel="stylesheet" type="text/css" href="../css/index.css">
         <link rel="stylesheet" type="text/css" href="../css/userdash.css">
         <link rel="stylesheet" type="text/css" href="../css/compose.css">
+        <link rel="stylesheet" type="text/css" href="../css/contact.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
@@ -21,69 +22,37 @@
         </header>
         <div class="container">
             <div class="side">
-                <a href="#" class="active">View Groups</a>
+                <a href="./admin-dash.html">View Groups</a>
                 <a id="Btn" href="#myModal">Create Group</a>
-                <a href="./add-contact.html">Add Member</a>
+                <a href="./add-contact.html" class="active">Add Member</a>
                 <a href="./index.html">Log Out</a>
 
             </div>
             <div class="mail">
             <form action="">
-                    <table id="tab">
-                            <tr class="header">
-                              <th>Groups Name</th>
-                              <th>Members</th>
-                            </tr>
-                            <tr onclick="window.location='#';"> 
-                              <td>Andela Kigali</td>
-                              <td>23</td>
-                            </tr>
-                            <tr onclick="window.location='#';">
+                    <div class="container">
+                            <label name="uname"><b>Email</b></label>
+                            <input type="text" placeholder="Enter Username" name="uname" required>
+                            <label name="uname"><b>First Name</b></label>
+                            <input type="text" placeholder="Enter Username" name="uname" required>
+                        
+                            <label name="psw"><b>Last Name</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
 
-                              <td>Bank Of Kigali</td>
-                              <td>12</td>
-                            </tr>
-                            <tr onclick="window.location='';">
+                            <label name="uname"><b>Select Group</b></label>
 
-                              <td>Progate</td>
-                              <td>245</td>
-                            </tr>
-                            <tr onclick="window.location='';">
-
-                            <td>Andela Kigali</td>
-                            <td>23</td>
-                            </tr>
-                            <tr onclick="window.location='#';">
-                            <td>Bank Of Kigali</td>
-                            <td>12</td>
-                            </tr>
-                            <tr onclick="window.location='#';">
-                            <td>Progate</td>
-                            <td>245</td>
-                            </tr>
-                            <tr onclick="window.location='#';">
-                            <td>Andela Kigali</td>
-                             <td>23</td>
-                            </tr>
-                            <tr onclick="window.location='#';">
-                            <td>Bank Of Kigali</td>
-                            <td>12</td>
-                            </tr>
-                            <tr onclick="window.location='#';">
-                            <td>Progate</td>
-                             <td>245</td>
-                            </tr>
-                          </table>
+                            <select name="" id="">
+                                    <option value="">Progate</option>
+                                    <option value="">Andela</option>
+                                    <option value="">forloop</option>
+                                    <option value="">GDG</option>
+                                    <option value="">Figma</option>
+                                </select><br>
+            
+                            <button type="submit" onclick="window.location='#';">Add</button>
+                          </div>
                   </form>
                 </div>
-                <div class="container">
-                        <div class="barpage">
-                                <button class="prev"><i class="fa fa-arrow-left" ></i> Previous</button>
-                                <button class="next">Next <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
-          
-                            </div>
-                </div>
-
         </div>
         <!-- Create Group Modal Section -->
 <div id="myModal" class="modal">
