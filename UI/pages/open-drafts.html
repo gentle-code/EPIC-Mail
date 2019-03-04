@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <meta name="author" content="Emmanuel TUYISHIMIRE">
+        <title>EPIC Mail | User Dashboard</title>
+        <link rel="stylesheet" type="text/css" href="../css/index.css">
+        <link rel="stylesheet" type="text/css" href="../css/userdash.css">
+        <link rel="stylesheet" type="text/css" href="../css/compose.css">
+        <link rel="stylesheet" type="text/css" href="../css/readmail.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="navbar">
+                    <a href="#" id="logo">EPIC Mail</a>
+                    <div class="dropdown">
+                    <button class="dropbtn">Emmanuel TUYISHIMIRE <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </button>
+                    <div class="dropdown-content"> 
+                    <a href="profile.html">Profile</a>
+                    <a href="index.html">Settings</a>
+                 </div>
+              </div>
+            </div>
+            </div>
+        </header>
+        <div class="container">
+            <button id="myBtn" class="compose" ><i class="fa fa-plus"></i> Compose New Mail</button>
+            <div class="side">
+                <a href="./userdash.html" class="active">Inbox</a>
+                <a href="./sentmail.html">Sent</a>
+                <a href="draftsmail.html">Drafts</a>
+                <a href="./index.html">Log Out</a>
+
+            </div>
+            <div class="mail">
+            <form action="">
+                <div class="container">
+                        <div class="container">
+                                <table class="comptab">
+                                    <tr><td>
+                                    <input type="text" id="inA" value="To" disabled/>
+                                    <input  type="text" placeholder="Enter Email or Group Name" name="to" required></td></tr> 
+                              
+                                <tr><td>
+                                <input type="text" id="inB" value="Subject" disabled/>
+                                <input  type="text" placeholder="Add Subject" name="subject" required></td></tr> 
+                                <td><textarea name="" id="" cols="30" rows="10">
+        Do accept your defeat Don't accept your defeat so soon
+        Coz someone is there for you To guide you along the path
+        Whenever you come so last To do things so that you smile
+        To help you in your every while That is the mercy of kind Lord
+        He is there to protect you all the while When you fall he will pick you up
+        So, bow down in front of him today And tell him thanks for your every way
+        In the name of Almighty Lord!
+
+                                </textarea></td>
+                            </table>
+        
+                            </div>
+                        <div class="rep">
+                                <button type="submit"></i> Send</button>
+                                <button type="submit"></i> Delete </button>
+                        </div>
+
+                </div>
+
+                  </form>
+                </div>
+
+        </div>
+<!-- Compose New Mail Modal Section -->
+<div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>New Message</h2>
+          </div>
+          <div class="modal-body">
+                <form action="">
+                    <div class="container">
+                        <table class="comptab">
+                            <tr><td>
+                            <input type="text" id="inA" value="To" disabled/>
+                            <input  type="text" placeholder="Enter Email or Group Name" name="to" required></td></tr> 
+                      
+                        <tr><td>
+                        <input type="text" id="inB" value="Subject" disabled/>
+                        <input  type="text" placeholder="Add Subject" name="subject" required></td></tr> 
+                        <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+                    </table>
+
+                    </div>
+                    </form>
+          </div>
+          <div class="container">
+          <div class="modal-footer">
+                <button type="submit">Send</button>
+                <button type="submit">Save</button>
+                <i class="fa fa-trash" aria-hidden="true"></i>
+          </div>
+        </div>
+        </div>
+      
+      </div>
+      
+<!-- End of Section-->
+        <footer>
+                <p>Copyright &copy; 2019 EPIC Mail</p>
+        </footer>
+        <script type="text/javascript" src="../js/compose.js"></script>
+    </body>
+</html>
