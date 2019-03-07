@@ -17,6 +17,10 @@ class Message {
     this.messages.push(neWMessage);
     return neWMessage;
   }
+
+  getAllMessages() {
+    return this.messages.filter(message => message.status === 'read' || message.status === 'unread');
+  }
 }
 
 export default new Message();
