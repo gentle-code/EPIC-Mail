@@ -1,4 +1,6 @@
 import uuid from 'uuid/v4';
+// eslint-disable-next-line import/no-cycle
+import Helper from '../helpers/helper';
 
 class User {
   constructor() {
@@ -15,6 +17,16 @@ class User {
     };
     this.users.push(newUser);
     return newUser;
+  }
+
+  findUser(email) {
+    return this.users.find(user => user.email === email);
+  }
+
+  userLogin(data) {
+    const foundUser = this.findUser(data.email);
+    const token = Helper.Tokengenerate(foundUser.id);
+    return { token, foundUser };
   }
 }
 

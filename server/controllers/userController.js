@@ -25,6 +25,15 @@ class UserController {
       }],
     });
   }
+
+  static signIn(req, res) {
+    const request = req.body;
+    const loginDetails = users.userLogin(request);
+    return res.status(200).json({
+      status: 200,
+      data: [loginDetails],
+    });
+  }
 }
 
 export default UserController;
